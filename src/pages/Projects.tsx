@@ -7,21 +7,21 @@ const projects = [
     description:
       'A web app for tracking delivery drivers on a live map using WebSockets and Mapbox.',
     tech: ['React', 'TypeScript', 'Mapbox', 'WebSocket'],
-    link: 'https://github.com/yourname/logistics-tracker',
+    link: 'https://github.com/viswasri503/real-time-logistics-tracker',
   },
   {
     title: 'Dashboard Analytics',
     description:
       'An interactive dashboard built with Recharts and FusionCharts for data-driven insights.',
     tech: ['React', 'FusionCharts', 'Recharts'],
-    link: 'https://github.com/yourname/dashboard-analytics',
+    link: 'https://github.com/viswasri503/Portfolio',
   },
   {
     title: 'Portfolio Website',
     description:
       'Personal portfolio site with animations, routing, and responsive design.',
     tech: ['React', 'Framer Motion', 'CSS Modules'],
-    link: 'https://yourportfolio.com',
+    link: 'https://portfolio-ten-kohl-26.vercel.app/',
   },
 ];
 
