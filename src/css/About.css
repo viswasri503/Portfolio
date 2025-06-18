@@ -1,0 +1,58 @@
+.about {
+    padding: 4rem 2rem;
+    background: #f8f9fa;
+    text-align: center;
+  }
+  
+  .about h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+    color: #222;
+  }
+  
+  .intro,
+  .closing {
+    max-width: 700px;
+    margin: 0 auto 2rem auto;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .closing{
+    padding: 2em;
+  }
+  
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .skill-box {
+    background: #f1f5f9;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.06);
+    transition: transform 0.2s ease;
+  }
+  
+  .skill-box:hover {
+    transform: translateY(-5px);
+  }
+  
+  .skill-box h3 {
+    margin: 1rem 0 0.5rem 0;
+    color: #007acc;
+  }
+  
+  .skill-box p {
+    color: #333;
+    font-size: 0.95rem;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #007acc;
+  }

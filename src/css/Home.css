@@ -1,0 +1,45 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    text-align: center;
+    background: #f8f9fa;
+    min-height: 90vh;
+  }
+  
+  .intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .intro .highlight {
+    color: #007acc;
+  }
+  
+  .intro h2 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .intro p {
+    max-width: 600px;
+    margin: 0 auto 2rem auto;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .btn {
+    background-color: #007acc;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #005fa3;
+  }

@@ -1,0 +1,43 @@
+.techstack {
+    padding: 2rem;
+    background-color: #f8fafc;
+    text-align: center;
+  }
+  
+  .techstack h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #111827;
+  }
+  
+  .tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 1.5rem;
+    justify-items: center;
+  }
+  
+  .tech-card {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .tech-card .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .tech-card span {
+    font-size: 0.85rem;
+    color: #374151;
+    font-weight: 500;
+  }
+  
